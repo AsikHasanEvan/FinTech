@@ -1,0 +1,10 @@
+
+source liveness-env/bin/activate  // for activating env
+
+liveness-env\Scripts\activate.bat // for windows
+
+python3 -m venv <liveness-env>  // for creating venv
+
+pip freeze > requirements.txt // freezing packages
+
+pip install -r requirements.txt // installing packages from file
